@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+data/
+data_interim/
+outputs/
+*.npz
+*.npy
+*.csv
+*.xlsx
+*.xls
+*.mp4
+*.avi
+*.rhvd4
+*.dat
