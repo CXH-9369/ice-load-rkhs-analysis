@@ -56,7 +56,7 @@ The central idea is simple:
 For feature $q$, the robust coordinate is
 
 $$
-z_q = \frac{x_q-\operatorname{median}(x_q)}{Q_{0.75}(x_q)-Q_{0.25}(x_q)}.
+z_q = \frac{x_q-\mathrm{median}(x_q)}{Q_{0.75}(x_q)-Q_{0.25}(x_q)}.
 $$
 
 The state vector combines contact area, load centroid, anisotropy, effective area, pressure entropy, load concentration, connected support, and measurement-quality descriptors.
@@ -77,7 +77,7 @@ The default bandwidth $\ell$ is the median positive pairwise distance, with expl
 Normalized HSIC quantifies nonlinear dependence between load progress and pressure topology:
 
 $$
-\operatorname{nHSIC}(X,Y)=
+\mathrm{nHSIC}(X,Y)=
 \frac{\langle K_c,L_c\rangle_F}
 {\sqrt{\langle K_c,K_c\rangle_F\langle L_c,L_c\rangle_F}}.
 $$
@@ -85,7 +85,7 @@ $$
 MMD compares local windows or complete specimen trajectories:
 
 $$
-\operatorname{MMD}^2(P,Q)=\|\mu_P-\mu_Q\|_{\mathcal H}^2.
+\mathrm{MMD}^2(P,Q)=\|\mu_P-\mu_Q\|_{\mathcal H}^2.
 $$
 
 These quantities measure nonlinear statistical structure. They do not, by themselves, establish causality or internal crack initiation.
