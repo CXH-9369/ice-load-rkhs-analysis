@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Ice-Load RKHS Analysis"
+type: software
+authors:
+  - family-names: "Chu"
+    given-names: "Xuanhe"
+repository-code: "https://github.com/CXH-9369/ice-load-rkhs-analysis"
+url: "https://github.com/CXH-9369/ice-load-rkhs-analysis"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-29
+abstract: >-
+  A specimen-balanced toolkit for nonlinear analysis of contact-pressure
+  evolution, loading-rate effects, and visible-fracture mechanisms in
+  uniaxially compressed ice using reproducing kernel Hilbert space methods.

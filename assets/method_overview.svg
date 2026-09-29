@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" role="img" aria-labelledby="title desc">
+  <title id="title">Multimodal RKHS ice-load analysis workflow</title>
+  <desc id="desc">A five-stage pipeline from synchronized machine load, pressure field, and side-view morphology to interpretable nonlinear mechanics.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#edf4fb"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1479b8"/>
+      <stop offset="1" stop-color="#22b6c8"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a58c9"/>
+      <stop offset="1" stop-color="#8b69d6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#24445d" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#7a96aa"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="1498" height="618" rx="26" fill="url(#panel)" stroke="#d4e2ed" stroke-width="2"/>
+  <text x="66" y="64" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="760">From multimodal observations to nonlinear mechanics</text>
+  <text x="66" y="96" fill="#61798c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Each stage preserves specimen identity, chronology, measurement quality, and physical interpretation.</text>
+
+  <!-- arrows -->
+  <g stroke="#7a96aa" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <path d="M318 285H362"/>
+    <path d="M596 285H640"/>
+    <path d="M874 285H918"/>
+    <path d="M1152 285H1196"/>
+  </g>
+
+  <!-- card 1 -->
+  <g transform="translate(64 137)" filter="url(#shadow)">
+    <rect width="254" height="295" rx="20" fill="#ffffff"/>
+    <rect width="254" height="8" rx="4" fill="#2d91c3"/>
+    <circle cx="42" cy="51" r="23" fill="#e6f5fb"/>
+    <text x="42" y="58" text-anchor="middle" fill="#167aaa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="760">01</text>
+    <text x="76" y="48" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">Synchronized</text>
+    <text x="76" y="71" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">observations</text>
+    <g transform="translate(25 100)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+      <rect width="204" height="41" rx="8" fill="#eef8fc"/><circle cx="21" cy="20" r="7" fill="#2d91c3"/><text x="38" y="25" fill="#456176">Machine load</text>
+      <rect y="52" width="204" height="41" rx="8" fill="#eef8fc"/><rect x="14" y="66" width="14" height="14" rx="3" fill="#35a9ba"/><text x="38" y="77" fill="#456176">Contact pressure</text>
+      <rect y="104" width="204" height="41" rx="8" fill="#eef8fc"/><path d="M14 131L21 112L28 131Z" fill="#5f74ce"/><text x="38" y="129" fill="#456176">Visible morphology</text>
+    </g>
+    <text x="25" y="273" fill="#7a8f9f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Unified physical time</text>
+  </g>
+
+  <!-- card 2 -->
+  <g transform="translate(342 137)" filter="url(#shadow)">
+    <rect width="254" height="295" rx="20" fill="#ffffff"/>
+    <rect width="254" height="8" rx="4" fill="#24a3b4"/>
+    <circle cx="42" cy="51" r="23" fill="#e8f8f7"/>
+    <text x="42" y="58" text-anchor="middle" fill="#168994" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="760">02</text>
+    <text x="76" y="48" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">Pressure-topology</text>
+    <text x="76" y="71" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">state</text>
+    <g transform="translate(27 103)">
+      <rect width="200" height="113" rx="10" fill="#0f3450"/>
+      <circle cx="61" cy="58" r="43" fill="#ff9e5f" opacity=".8"/>
+      <circle cx="61" cy="58" r="25" fill="#ffe279" opacity=".9"/>
+      <circle cx="147" cy="47" r="32" fill="#806fd3" opacity=".72"/>
+      <g stroke="#b9eff6" stroke-opacity=".22"><path d="M40 0V113M80 0V113M120 0V113M160 0V113"/><path d="M0 28H200M0 56H200M0 84H200"/></g>
+    </g>
+    <text x="26" y="242" fill="#456176" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">12 interpretable descriptors</text>
+    <text x="26" y="268" fill="#7a8f9f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">10% → 100% peak load</text>
+  </g>
+
+  <!-- card 3 -->
+  <g transform="translate(620 137)" filter="url(#shadow)">
+    <rect width="254" height="295" rx="20" fill="#ffffff"/>
+    <rect width="254" height="8" rx="4" fill="#6764ca"/>
+    <circle cx="42" cy="51" r="23" fill="#efedfb"/>
+    <text x="42" y="58" text-anchor="middle" fill="#5d59bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="760">03</text>
+    <text x="76" y="48" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">RKHS</text>
+    <text x="76" y="71" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">embedding</text>
+    <ellipse cx="127" cy="168" rx="82" ry="68" fill="#f1effc" stroke="#8b7dd3" stroke-width="2"/>
+    <path d="M67 187C95 128 146 119 190 153" fill="none" stroke="#29a9bd" stroke-width="3"/>
+    <path d="M75 207C113 158 157 159 190 184" fill="none" stroke="#7d69cb" stroke-width="2.5"/>
+    <g fill="#24a9bd"><circle cx="77" cy="174" r="5"/><circle cx="103" cy="143" r="5"/><circle cx="135" cy="133" r="5"/><circle cx="165" cy="143" r="5"/></g>
+    <g fill="#7764c7"><circle cx="95" cy="195" r="5"/><circle cx="128" cy="174" r="5"/><circle cx="161" cy="174" r="5"/></g>
+    <text x="127" y="255" text-anchor="middle" fill="#456176" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Gaussian RBF kernel</text>
+    <text x="127" y="278" text-anchor="middle" fill="#7a8f9f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Robust median bandwidth</text>
+  </g>
+
+  <!-- card 4 -->
+  <g transform="translate(898 137)" filter="url(#shadow)">
+    <rect width="254" height="295" rx="20" fill="#ffffff"/>
+    <rect width="254" height="8" rx="4" fill="#7d64ca"/>
+    <circle cx="42" cy="51" r="23" fill="#f2effb"/>
+    <text x="42" y="58" text-anchor="middle" fill="#7259bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="760">04</text>
+    <text x="76" y="48" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">Nonlinear</text>
+    <text x="76" y="71" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">inference</text>
+    <g transform="translate(26 104)" font-family="Inter,Segoe UI,Arial,sans-serif">
+      <rect width="96" height="55" rx="12" fill="#eaf7fb"/><text x="48" y="25" text-anchor="middle" fill="#177f9f" font-size="17" font-weight="760">HSIC</text><text x="48" y="43" text-anchor="middle" fill="#6b8494" font-size="10">dependence</text>
+      <rect x="108" width="96" height="55" rx="12" fill="#f0edfb"/><text x="156" y="25" text-anchor="middle" fill="#6556ba" font-size="17" font-weight="760">MMD</text><text x="156" y="43" text-anchor="middle" fill="#6b8494" font-size="10">transition</text>
+      <rect y="68" width="96" height="55" rx="12" fill="#f0edfb"/><text x="48" y="93" text-anchor="middle" fill="#6556ba" font-size="15" font-weight="760">k-medoids</text><text x="48" y="111" text-anchor="middle" fill="#6b8494" font-size="10">regimes</text>
+      <rect x="108" y="68" width="96" height="55" rx="12" fill="#eaf7fb"/><text x="156" y="93" text-anchor="middle" fill="#177f9f" font-size="15" font-weight="760">Kernel PCA</text><text x="156" y="111" text-anchor="middle" fill="#6b8494" font-size="10">geometry</text>
+    </g>
+    <text x="26" y="263" fill="#7a8f9f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Exact specimen-level tests</text>
+  </g>
+
+  <!-- card 5 -->
+  <g transform="translate(1176 137)" filter="url(#shadow)">
+    <rect width="254" height="295" rx="20" fill="#ffffff"/>
+    <rect width="254" height="8" rx="4" fill="#d4773d"/>
+    <circle cx="42" cy="51" r="23" fill="#fff1e7"/>
+    <text x="42" y="58" text-anchor="middle" fill="#c46630" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="760">05</text>
+    <text x="76" y="48" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">Mechanism</text>
+    <text x="76" y="71" fill="#17324a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750">evidence</text>
+    <g transform="translate(27 105)">
+      <path d="M8 105C42 95 47 36 81 42S126 121 156 91S178 39 200 18" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round"/>
+      <line x1="8" y1="124" x2="206" y2="124" stroke="#cbd8e2"/>
+      <line x1="8" y1="10" x2="8" y2="124" stroke="#cbd8e2"/>
+      <circle cx="81" cy="42" r="8" fill="#695ec6" stroke="#fff" stroke-width="3"/>
+      <line x1="81" y1="18" x2="81" y2="124" stroke="#695ec6" stroke-dasharray="4 4" opacity=".55"/>
+      <circle cx="156" cy="91" r="8" fill="#df7a3c" stroke="#fff" stroke-width="3"/>
+    </g>
+    <text x="26" y="254" fill="#456176" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Transition ↔ damage ↔ peak</text>
+    <text x="26" y="278" fill="#7a8f9f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Association, not causation</text>
+  </g>
+
+  <!-- bottom contract -->
+  <g transform="translate(65 485)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect width="1365" height="82" rx="17" fill="#17324a"/>
+    <text x="30" y="34" fill="#7be2ef" font-size="13" font-weight="760" letter-spacing="1.4">REPRODUCIBILITY CONTRACT</text>
+    <text x="30" y="60" fill="#f0f7fb" font-size="15">Specimen = independent unit</text>
+    <circle cx="263" cy="55" r="3" fill="#5fb9ce"/><text x="280" y="60" fill="#f0f7fb" font-size="15">Chronological load crossing</text>
+    <circle cx="516" cy="55" r="3" fill="#5fb9ce"/><text x="533" y="60" fill="#f0f7fb" font-size="15">Exact permutations</text>
+    <circle cx="720" cy="55" r="3" fill="#5fb9ce"/><text x="737" y="60" fill="#f0f7fb" font-size="15">Prespecified sensitivity</text>
+    <circle cx="969" cy="55" r="3" fill="#5fb9ce"/><text x="986" y="60" fill="#f0f7fb" font-size="15">No frame-level pseudoreplication</text>
+  </g>
+</svg>
