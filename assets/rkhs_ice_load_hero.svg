@@ -58,7 +58,8 @@
     </g>
   </g>
 
-  <g transform="translate(705 40)" filter="url(#shadow)">
+  <!-- Keep the complete scientific illustration inside the GitHub-safe viewBox. -->
+  <g transform="translate(635 24)" filter="url(#shadow)">
     <!-- ice specimen -->
     <polygon points="50,110 238,72 342,134 153,176" fill="#b9eff8" opacity=".9"/>
     <polygon points="50,110 153,176 153,361 50,292" fill="#5fb6da" opacity=".72"/>
