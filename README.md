@@ -11,7 +11,7 @@
 
 **A specimen-balanced RKHS toolkit for nonlinear contact-pressure evolution, loading-rate comparison, and visible-fracture mechanism analysis in uniaxially compressed ice.**
 
-[Method](#method-at-a-glance) · [Mathematics](#mathematical-core) · [Code map](#repository-map) · [Quick start](#quick-start) · [Reproducibility](#reproducibility-contract) · [Citation](#citation)
+[Method](#method-at-a-glance) · [Mathematics](#mathematical-core) · [Code map](#repository-map) · [Quick start](#quick-start) · [Reproducibility](#reproducibility-contract) · [Contributors](#contributors) · [Citation](#citation)
 
 </div>
 
@@ -208,6 +208,12 @@ The release includes 35 deterministic tests covering:
 - leave-one-specimen-out sampling and interval policies.
 
 The complete suite is included so each release can be checked locally with one command.
+
+## Contributors
+
+This project is created and maintained by **[Xuanhe Chu (@CXH-9369)](https://github.com/CXH-9369)**, including the experimental programme, methodology, software, validation, visualization, and manuscript development.
+
+See [`CONTRIBUTORS.md`](CONTRIBUTORS.md) for the project contribution record. Historical commits made with the repository's generic release identity are canonicalized through [`.mailmap`](.mailmap).
 
 ## Citation
 
